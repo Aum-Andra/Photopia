@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <script
+      src="https://kit.fontawesome.com/8c3b716783.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo"><a href="index.html">Photopia</a></div>
+      <div class="register">
+        <a href="login.html">Login</a>
+        <a href="signUp.html">Sign Up</a>
+      </div>
+    </nav>
+    <div class="herobox">
+      <div class="login">
+        <div class="form-box">
+          <div class="button-box">
+            <div class="btn"></div>
+            <button type="button" class="toggle-button" id="loginSide">
+              <a href="login.html"> Login</a>
+            </button>
+            <button
+              type="button"
+              class="toggle-button"
+              id="signUpSide"
+              class="signUpSide"
+            >
+              <a href="signUp.html">Sign Up</a>
+            </button>
+          </div>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
+          </div>
+          <form id="login" class="input-group">
+            <input
+              type="text"
+              class="input-field"
+              placeholder="User Id"
+              required
+            />
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Password"
+              required
+            />
+            <input type="checkbox" class="check-box" /><span
+              >Remember Password</span
+            >
+            <button type="submit" class="submit-btn">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
